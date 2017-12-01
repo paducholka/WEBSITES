@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Roboto:900');
+@import url('https://fonts.googleapis.com/css?family=Raleway:800,900');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ 	/*GRID*/
+
+.row:before, .row:after {
+	content:"";
+	display: table ;
+	clear: both;
+ }
+ 
+[class*="col-"] {
+	float: left;
+ 	min-height: 1px;
+ 	padding: 12px;
+ }
+ 
+ .col-1 {width: 8.33%;}
+ .col-2 {width: 16.66%;}
+ .col-3 {width: 25%;}
+ .col-4 {width: 33.33%;}
+ .col-5 {width: 41.66%;}
+ .col-6 {width: 50%;}
+ .col-7 {width: 58.33%;}
+ .col-8 {width: 66.66%;}
+ .col-9 {width: 75%;}
+ .col-10 {width: 83.33%;}
+ .col-11 {width: 91.66%;}
+ .col-12 {width: 100%;}
+ 
+ .col-offset-1 {margin-left: 8.33%;}
+ .col-offset-2 {margin-left: 16.66%;}
+ .col-offset-3 {margin-left: 25%;}
+ .col-offset-4 {margin-left: 33.33%;}
+ .col-offset-5 {margin-left: 41.66%;}
+ .col-offset-6 {margin-left: 50%;}
+ .col-offset-7 {margin-left: 58.33%}
+ .col-offset-8 {margin-left: 66.66%}
+ .col-offset-9 {margin-left: 75%;}
+ .col-offset-10 {margin-left: 83.33%;}
+ .col-offset-11 {margin-left: 91.66%;}
+ .col-offset-12 {margin-left: 100%;}
+
+ 	/*BODY*/
+
+body {
+	font-family: 'Lato', sans-serif;
+ }
+ 
+	/*CONTAINER*/
+
+.container {	
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+	/*HEADER*/
+ 
+header {
+ 	height: 75px;
+ 	background-color: #15384e;
+}
+
+header nav::before, header nav::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+header nav ul {
+	float: right;
+	list-style-type: none;
+}
+
+header nav ul li {
+	display: inline-block;
+}
+
+header nav ul li a {
+	height: 75px;
+	width: 100px;
+	line-height: 75px;
+	text-decoration: none;
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 5px;
+}
+
+header nav ul li a:hover {
+	color: #3498db;
+	cursor: pointer;
+}
+
+header nav img {
+	margin-top: 10px;
+}
+
+	/*HERO*/
+
+.hero {
+	height: 500px;
+	background-image: url(https://zaczytanie.files.wordpress.com/2015/07/tvtheoffice06.jpg);
+	background-size: cover;
+	text-align: right;
+}
+
+.hero .slogan {
+	display: inline-block;
+	text-align: left;
+	color: #FFF;
+	font-size: 35px;
+	background: rgba(0,0,0,0.6);
+	width: 550px;
+	height: 180px;
+	margin-top: 140px;
+	padding: 50px 50px;
+	line-height: 35px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.hero .slogan span {
+	font-weight: 800;
+}
+
+	/*ELEMENTS*/
+	
+.elements {
+	margin-top: 60px;
+	text-align: center;
+}
+	
+.elements .fa {
+	background: #313234;
+	height: 100px;
+	width: 100px;
+	border-radius: 20px;
+	text-align: center;
+	color: #FFF;
+	font-size: 60px;
+	padding-top: 20px;
+}
+
+.elements h2 {
+	text-transform: uppercase;
+	text-align: center;
+	color: #313234;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 20px 0 10px 0;
+}
+
+.elements p {
+	text-align: center;
+	color: #808080;
+	font-size: 13px;
+	font-weight: normal;
+	max-width: 300px;
+	margin: 0 auto;
+}	
+
+.elements .fa-laptop {
+	background: #15384e;
+}
+
+.elements .blue {
+	color: #15384e;
+}
+ 
+ 	/*FEATURED WORKS*/
+ 	
+ .featured {
+ 	margin-top: 60px;
+ 	text-align: center;
+ }
+ 
+ .featured h2 {
+ 	text-transform: uppercase;
+ 	font-size: 30px;
+ 	font-weight: bold;
+ 	font-family: 'Roboto', sans-serif;
+ 	color: #313234;
+ }
+ 
+ .featured p {
+ 	margin-top: 8px;
+ 	color: #808080;
+ 	font-size: 15px;
+ }
+ 
+ 	/*GALLERY*/
+ 
+ .gallery {
+ 	margin-top: 50px;
+ }
+
+.gallery .box {
+  position: relative;
+  height: 150px;
+  padding: 0;
+}
+ 
+ .gallery img {
+ 	height: 150px;
+	object-fit: cover;
+	width: 100%;
+}
+
+.gallery .box .layer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	text-align: center;
+	line-height: 150px;
+}
+
+.gallery .box .layer:hover {
+	background: rgba(0,0,0,0.7);
+	cursor: pointer;
+	opacity: 1;
+}
+
+.gallery .box .fa {
+	background-color: #FFF;
+	border-radius: 5px;
+	line-height: 13px;
+	font-size: 13px;
+	height: 20px;
+	width: 20px;
+	padding-top: 4px;
+}
+
+	/*TEAM*/
+	
+.team {
+	margin-top: 60px;
+}
+	
+.team .team-box {
+	position: relative;
+	text-align: center;
+}	
+	
+.team img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	object-fit: cover;
+	display: block;
+}
+
+.team .outer_img {
+	position: relative;
+	display: inline-block;
+}
+
+.team .team-box .team-layer {
+	position: absolute;
+	border-radius: 50%;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	line-height: 200px;
+	transition: .2s;
+}
+
+.team .team-box .team-layer:hover {
+	background: rgba(0,0,0,0.7);
+	cursor: pointer;
+	opacity: 1;
+}
+	
+.team h4 {
+	margin-top: 8px;
+	text-align: center;
+}
+ 
+.team .team-box .team-layer p {
+	color: #FFF;
+	text-align: center;
+}
+
+	/*PICTURE*/
+	
+.picture {
+	margin-top: 60px;
+	background: #15384e;
+}
+
+.picture img {
+	width:100%;
+	height: auto;
+	object-fit: cover;
+	border: 2px #FFF solid;
+}
+
+.picture h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #FFF;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.picture p {
+	margin-top: 20px;
+	font-size: 16px;
+	color: #FFF;
+	font-weight: normal;
+}
+
+.picture .left {
+	text-align: left;
+}
+
+.picture .right {
+	text-align: right;
+}
+
+	/*NUMBERS*/
+	
+.numbers {
+	margin-top: 60px;
+	text-align: center;
+}
+
+.numbers h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 55px;
+	font-weight: 900;
+	color: #15384e;
+	text-align: center;
+}
+
+.numbers p {
+	font-size: 18px;
+	font-weight: bold;
+	color: #313234;
+	padding-top: 3px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+	/*FOOTER*/
+
+.footer {
+	margin-top: 60px;
+	background-color: #15384e;
+}
+
+.footer h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	font-weight: 800;
+	color: #FFF;
+	text-align: left;
+	text-transform: uppercase;
+	padding-top: 30px;
+}
+
+.footer .about {
+	padding-top: 10px;
+}
+
+.footer p {
+	font-size: 13px;
+	font-weight: normal;
+	color: #FFF;
+	text-align: left;
+	
+}
+	
+.footer h4 {
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFF;
+	text-align: left;
+}
+
+.footer .icons {
+	display: inline-block;
+}
+
+.footer .fa {
+	width: 25px;
+	height: 25px;
+	background: #FFF;
+	color: #000;
+	text-align: center;
+	font-size: 16px;
+	padding-top: 5px;
+}
+
+.footer .fa:hover {
+	background-color: #3498db;
+	color: #FFF;
+	cursor: pointer;
+}
+	
+	/*COPYRIGHTS*/
+	
+.copyrights {
+	margin: 0;
+	padding: 0;
+	height: 50px;
+	background-color: #0f2939;
+	text-align: center;
+}
+
+.copyrights p {
+	color: #FFF;
+	font-size: 14px;
+	text-align: center;
+	line-height: 45px;
+}
+	
+	
+	
+	
+	
+
+
