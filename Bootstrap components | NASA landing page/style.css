@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Raleway|Titillium+Web');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {	
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+body {
+	padding-top: 50px;
+	font-family: 'Raleway', sans-serif;
+}
+
+ /*NAVIGATION*/
+
+.nasa-logo {
+	height: 100%;
+}
+
+.navbar-brand {
+	color: #FFF;
+	font-size: 24;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar ul li,
+.navbar input,
+.navbar button {
+	font-family: 'Raleway', sans-serif;
+}
+
+ /*JUMBOTRON*/
+ 
+ .jumbotron {
+ 	background-image: url(https://images.pexels.com/photos/176851/pexels-photo-176851.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb);
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+ 	background-size: cover;
+ }
+ 
+ .jumbotron h1 {
+ 	color: #FFF;
+ 	font-family: 'Titillium Web', sans-serif;
+ }
+ 
+ .jumbotron p {
+ 	color: #FFF;
+ 	font-family: 'Raleway', sans-serif;
+ }
+ 
+ .jumbotron button {
+ 	background-color: #34495e;
+ 	border: #2c3e50;
+ 	font-family: 'Raleway', sans-serif;
+ 	text-transform: uppercase;
+ }
+ 
+  /*VISION*/
+  
+.vision {
+	font-family: 'Tatillium Web', sans-serif;
+	color: #2c3e50;
+	font-size: 40px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+ 
+ /*GALLERY*/
+ 
+.gallery .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.gallery {
+	display: flex;
+	align-items: center;
+	background-image: url(https://images.pexels.com/photos/176851/pexels-photo-176851.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb);
+	background-size: cover;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.gallery img {
+	object-fit: cover;
+	width: 100%;
+	height: 200px;
+}
+
+.gallery .img-thumbnail {
+	border-radius: 0;
+	padding: 0;
+}
+
+ /*MEDIA*/
+ 
+.container-media {
+	padding-right: 0;
+	padding-left: 0;
+}
+ 
+.media {
+	padding: 30px;
+	background-color: #09101a;
+	width: 100%;
+	height: auto;
+	display: flex;
+}
+
+.media-left {
+	align-items: center;
+}
+ 
+.media-object {
+	width: 250px;
+	height: auto;
+	border: 2px solid #FFF;
+}
+
+.media-heading {
+	font-weight: 900px;
+	font-size: 25px;
+}
+
+.media .media-body {
+	color: #FFF;
+}
+
+ /*TABLE*/
+
+.table {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+ /*FORM*/
+
+ 
+.container-form {
+	padding-right: 0;
+	padding-left: 0;
+}
+ 
+.application-form {
+	padding: 30px;
+	background-color: #09101a;
+	width: 100%;
+	height: 350px;
+}
+
+form h4,
+form label,
+form .checkbox {
+	color: #FFF;
+}
+
+.form-button {
+	background-color: #FFF;
+	border: #FFF;
+	color: #09101a;
+}
+
+form p {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #FFF;
+}
