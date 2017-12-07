@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <title>Bob's Burgers</title>
+</head>
+<body>
+	<!--NAVIGATION-->
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#"><img src="https://aqueous-cove-60500.herokuapp.com/assets/images/BobsBurger_Logo.jpg" alt="Bob's Burgers" class="img-responsive bob-logo"></a>
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+    					<span class="sr-only">Toggle navigation</span>
+    		    		<span class="icon-bar"></span>
+    		    		<span class="icon-bar"></span>
+    		    		<span class="icon-bar"></span>
+    	  			</button>
+			</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">HOME</a></li>
+				<li><a href="#">FAMILY</a></li>
+				<li><a href="#">RESTAURANT</a></li>
+				<li><a href="#">MENU</a></li>
+				<li><a href="#">CONTACT</a></li>
+			</ul>
+		</div>
+		</div>
+	</nav>
+	<!--CAROUSEL-->
+	<div class="container-fluid carousel-container">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"><li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+				<li data-target="#myCarousel" data-slide-to="3"></li>
+				<li data-target="#myCarousel" data-slide-to="4"></li>
+				<li data-target="#myCarousel" data-slide-to="5"></li>
+			</ol>
+			<div class="carousel-inner" role="list-box">
+				<div class="item active example"><img src="http://i0.kym-cdn.com/photos/images/original/000/682/415/949.jpg" alt="Picture 1" class="img-responsive"></div>
+				<div class="item example"><img src="http://www.trbimg.com/img-53f14ea2/turbine/la-et-st-emmy-nominations-2014-top-nominees-wi-036" alt="Picture 2" class="img-responsive"></div>
+				<div class="item example"><img src="http://images.fandango.com/images/fandangoblog/Fan_BobsBurgers_Blog_201710.jpg" alt="Picture 3" class="img-responsive"></div>
+				<div class="item example"><img src="https://cnet4.cbsistatic.com/img/uh_tdX9PxbhKwFTbGy2kfrhhRv4=/2017/10/04/6290a252-4a8e-43d0-b469-ad36987c4c2a/bobsburgerscrop.jpg" alt="Picture 4" class="img-responsive"></div>
+				<div class="item example"><img src="https://lh3.googleusercontent.com/5uaYj6zufB4Fd8PiaCGzuVPVUhZgJj6U3A2p1x0uCdUGqdL7f2hfk4bsvyu4_gjvBjnc=w1264"alt="Picture 5" class="img-responsive"></div>
+			</div>
+			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+	<!--IMAGE-->
+	<img src="https://i.imgur.com/U2L4oBW.png" class="img-responsive">
+	<!--TEXT-->
+	<h1>Click on a tab below to find out more about the show!</h1>
+	<!--TABS-->
+	<ul class="nav nav-tabs nav-justified">
+		<li class="active"><a data-toggle="tab" href="#about">About</a></li>
+		<li><a data-toggle="tab" href="#characters">Characters</a></li>
+		<li><a data-toggle="tab" href="#recipes">Recipes</a></li>
+	</ul>
+	<div class="tab-content">
+		<div id="about" class="tab-pane">
+			<h3 class="text-center">About Bob's Burgers</h3>
+			<div class="container">
+				<div class="row">
+					<img src="http://i0.kym-cdn.com/photos/images/original/000/682/415/949.jpg" alt="about" class="img-responsive col-lg-6 .col-md-6 .col-sm-6 .col-xs-12">
+					<p class="text-justify col-lg-6 .col-md-6 .col-sm-6 .col-xs-12">The show centers on the Belcher family—Bob, Linda, and their children Tina, Gene, and Louise; who run a hamburger restaurant on Ocean Avenue. Bob's Burgers is located in a green two-story building which features an apartment on the second floor where Bob and his family reside. The restaurant is sandwiched between two other commercial buildings, one of which houses "It's Your Funeral Home and Crematorium", whose owner Mort is a regular at the restaurant. Success is not easy, as Bob must compete with several other eateries for business. His biggest rival is Jimmy Pesto's Pizzeria, which is located right across the street. It attracts many more customers than Bob's Burgers, creating tension between the two owners. Bob's restaurant also has seen its fair share of bad luck. For example, in the show's opening, the property falls victim to a fire, an infestation of vermin, and a broken front window caused by a car knocking down a utility pole.</p>
+				</div>
+			</div>
+		</div>
+		<div id="characters" class="tab-pane">
+			<h3 class="text-center">The Belcher Family</h3>
+			<div class="container">
+				<div class="row">
+					<img src="https://cnet4.cbsistatic.com/img/uh_tdX9PxbhKwFTbGy2kfrhhRv4=/2017/10/04/6290a252-4a8e-43d0-b469-ad36987c4c2a/bobsburgerscrop.jpg" alt="Picture 4" class="img-responsive col-lg-6 .col-md-6 .col-sm-6 .col-xs-12">
+					<p class="text-justify col-lg-6 .col-md-6 .col-sm-6 .col-xs-12">The Belcher family runs a hamburger restaurant. Bob is the restaurant's owner and husband to the fun-loving and happy-go-lucky Linda. Their three children are Tina, the oldest, Gene, the only boy, and Louise, the youngest. All three children help at the restaurant to some extent. Louise is somewhat of a precocious menace and an instigator of many of the debacles that face the Belcher family. Tina is awkward, but full of heart, and muddles her way through her pubescent experiences, such as leg waxing and strong fixations on neighborhood boys. Gene is the more light hearted goofball type and aspires to be a great musician.</p>
+				</div>
+			</div>
+		</div>
+		<div id="recipes" class="tab-pane">
+			<h3 class="text-center">The Bob's Burgers Burger Book</h3>
+			<div class="container">
+				<div class="row">
+					<img src="https://theawesomer.com/photos/2016/05/bobs_burgers_cookbook_1.jpg" alt="Picture 4" class="img-responsive col-lg-6 .col-md-6 .col-sm-6 .col-xs-12">
+					<p class="text-justify col-lg-6 .col-md-6 .col-sm-6 .col-xs-12">The Bob’s Burgers Burger Book gives hungry fans their best chance to eat one of Bob Belcher’s beloved specialty Burgers of the Day in seventy-five original, practical recipes. Recipes include the "Bleu is the Warmest Cheese Burger," the "Bruschetta-Bout-It Burger," and the "Shoot-Out at the OK-ra Corral Burger (comes with Fried Okra)." Serve the "Sweaty Palms Burger (comes with Hearts of Palm)" to your ultimate crush, just like Tina Belcher, or ponder modern American literature with the "I Know Why the Cajun Burger Sings Burger."</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--IMAGE-->
+	<img src="https://i.imgur.com/78BTgh8.png" class="img-responsive">
+	<!--MODAL-->
+	<div class="modal-center">
+	<button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal">Best Quotes</button>
+	</div>
+	<div id="myModal" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4>Best Quotes from Bob's Burgers</h4>
+			</div>
+			<div class="modal-body">
+				<p>Don't have favourites, because all of them are the best!</p>
+			</div>
+			<div class="modal-footer">
+				<p>Sorry!</p>
+			</div>
+		</div>
+		<button type="button" class="btn btn-warning" data-dismiss="modal">Bye bye!</button>
+	</div>
+</div>
+</body>
+</html>
